@@ -23,10 +23,13 @@ class Student:
     
 def main():
 
-    grade_1 = Student("Andrey")
-    print(grade_1.name)
-    grade_1.add_course("Arcane", 78)
-    grade_1.add_course("Fire", 82)
-    print(grade_1.get_courses())
+    pupil_1 = Student("Andrey")
+    print(pupil_1.name)
+    pupil_1.add_course("Arcane", 78)
+    pupil_1.add_course("Fire", 82)
+    pupil_1.add_course("Ice", 96)
+    pupil_1.add_course("Close combat", 66)
+    pupil_1.add_course("Filology", 54)
+    print(pupil_1.get_courses())
 
 main()
