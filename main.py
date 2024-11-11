@@ -20,3 +20,10 @@ class Student:
 
     def get_courses(self):
         return self.__courses
+    
+def main():
+
+    grade_1 = Student("History")
+    grade_1.add_course("Arcane", 78)
+
+main()
