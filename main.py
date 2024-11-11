@@ -23,7 +23,10 @@ class Student:
     
 def main():
 
-    grade_1 = Student("History")
+    grade_1 = Student("Andrey")
+    print(grade_1.name)
     grade_1.add_course("Arcane", 78)
+    grade_1.add_course("Fire", 82)
+    print(grade_1.get_courses())
 
 main()
